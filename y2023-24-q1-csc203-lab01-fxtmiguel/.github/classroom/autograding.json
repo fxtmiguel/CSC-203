@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Lab 1 Completion",
+      "setup": "javac -d out src/Lab01.java",
+      "run": "java -cp out Lab01",
+      "input": "",
+      "output": "x: 2\r\ny: 4.0\r\nz: 5.0\r\n1 2 3 4 \r\n3\r\n0: 6.5\r\n1: 4.3\r\n2: 2.1\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}

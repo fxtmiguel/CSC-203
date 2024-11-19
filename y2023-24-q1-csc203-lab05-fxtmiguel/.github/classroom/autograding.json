@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Lab Completion",
+      "setup": "",
+      "run": "javac -cp 'lib/*:src/*' src/* -d out; java -jar 'lib/junit-platform-console-standalone-1.9.2.jar' --cp 'out/' --select-class CreatureClassesTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
